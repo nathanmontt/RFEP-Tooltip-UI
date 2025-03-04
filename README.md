@@ -39,7 +39,7 @@ A seção abaixo foi adicionada para caso queira verificar algum conteúdo de es
 
 *Tipo do Estudo* | Nome do Artigo
 :---------: | :------:
-**CSS (GeeksForGeeks)** | <a href="https://www.geeksforgeeks.org/what-is-a-tooltip-in-html/">https://www.geeksforgeeks.org/what-is-a-tooltip-in-html/</a>
+**CSS (GeeksForGeeks)** | <a href="https://www.geeksforgeeks.org/what-is-a-tooltip-in-html/">What is a Tooltip in HTML ?</a>
 **roadmap.sh** | O link do projeto pode ser encontrado <a href="https://roadmap.sh/projects/tooltip-ui">aqui</a>
 
 <h1 id="credits"> Créditos </h1>
