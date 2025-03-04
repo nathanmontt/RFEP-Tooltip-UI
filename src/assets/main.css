@@ -28,19 +28,59 @@
     --rdMeasure: 0.5em;
     --thMeasure: 0.2em;
     --diffMeasure: 0.01em;
-    --fontSizeTitle: 1.3em;
-    --fontSizeParagraph: 1.1em;
-    --firstSizeWidthHeight: 7em;
-    --secondSizeWidthHeight: 8em;
+    --fontSizeTitle: 1.5em;
 
     /* Fonts */
     --mainFont: "Roboto", serif;
 }
 
-/* body {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--tertiary);
-} */
+}
+
+main {}
+
+main .container-tooltip-holder {
+    border: var(--diffMeasure) solid var(--primary);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: var(--secMainMeasure); */
+}
+
+main .text-hover {
+    text-align: center;
+    margin-bottom: var(--secMeasure);
+    font-size: var(--fontSizeTitle);
+    font-weight: 500;
+}
+
+.tooltip .text {
+    margin: var(--mainMeasure) var(--secMeasure);
+    cursor: pointer;
+}
+
+.tooltip .tooltip-text {
+    border-radius: var(--rdMeasure);
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: var(--rdMeasure);
+
+    position: absolute;
+    opacity: 0;
+    transition: opacity .3s, transform .3s;
+}
+
+.tooltip:nth-child(2) {
+    border-right: var(--diffMeasure) solid var(--primary);
+    border-left: var(--diffMeasure) solid var(--primary);
+    margin: var(--rdMeasure);
+}
+
+.tooltip:hover .tooltip-text {
+    opacity: 1;
+    transform: translateY(10px);
+}
