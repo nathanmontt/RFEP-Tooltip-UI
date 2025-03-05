@@ -20,7 +20,6 @@ Como o nome do repositório menciona, **RFEP-Tooltip-UI** é um projeto de Front
 
 * HTML
 * CSS (*vanila*)
-* Javascript
 
 
 <h1 id="fut-feats"> <em>Features</em> Futuras </h1>
