@@ -13,7 +13,7 @@ Projeto de Frontend do site <a href="https://roadmap.sh/">roadmap.sh</a>
 
 <h1 id="about">Sobre o Projeto</h1>
 
-Como o nome do repositório menciona, **RFEP-Tooltip-UI** é um projeto de Frontend, trago pelo site <a href="https://roadmap.sh/">roadmap.sh</a>, onde o objetivo é introduzir o estudo de **_Javascript_**. Mais especificamente com _**DOM**_, criando uma _tab_.
+Como o nome do repositório menciona, **RFEP-Tooltip-UI** é um projeto de Frontend, trago pelo site <a href="https://roadmap.sh/">roadmap.sh</a>, onde o objetivo é criar uma _tooltip_, que são pequenas dicas que ajudam ao usuário descobrir o que tal item faz. Nesse caso, será implementado com **_hover_**.
 
 
 <h1 id="abilities"> Habilidades Necessárias </h1>
@@ -40,8 +40,8 @@ A seção abaixo foi adicionada para caso queira verificar algum conteúdo de es
 
 *Tipo do Estudo* | Nome do Artigo
 :---------: | :------:
-<!-- **CSS (GeeksForGeeks)** | <a href="https://www.geeksforgeeks.org/what-is-a-tooltip-in-html/">What is a Tooltip in HTML ?</a> -->
-**roadmap.sh** | O link do projeto pode ser encontrado <a href="https://roadmap.sh/projects/simple-tabs">aqui</a>
+**CSS (GeeksForGeeks)** | <a href="https://www.geeksforgeeks.org/what-is-a-tooltip-in-html/">What is a Tooltip in HTML ?</a>
+**roadmap.sh** | O link do projeto pode ser encontrado <a href="https://roadmap.sh/projects/tooltip-ui">aqui</a>
 
 <h1 id="credits"> Créditos </h1>
 
